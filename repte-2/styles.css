@@ -1,0 +1,69 @@
+*{
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(250, 239, 227);
+    padding: 15px 5px 30px 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#xBtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    color: rgb(217, 142, 2);
+    font-size: 25px;
+
+}
+
+#xBtn:hover{
+    color: rgb(156, 101, 0);
+}
+
+#cookieimg {
+    width: 100px;
+    margin-top: 30px;
+}
+
+#btn{
+    margin: 0px 20px 0px 0px;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    background-color: rgb(217, 142, 2);
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(156, 101, 0);
+}
+
+.container p{
+    
+    color: rgb(90, 90, 90);
+    padding: 0 20px 10px 20px ;
+
+}
+
+.container a{
+    color: rgb(217, 142, 2);
+}
+
+.container a:hover{
+    color: rgb(156, 101, 0);
+}
+
+.container h3{
+    color: rgb(190, 123, 0);
+    font-weight: 500;
+}

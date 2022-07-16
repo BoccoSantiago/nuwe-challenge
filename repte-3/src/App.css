@@ -1,14 +1,25 @@
 /***    General     ***/
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif
+    font-family: "Inter", sans-serif
+    
 }
 
 body {
-    margin-top: 100px;
     text-align: center;
+    background-color: #cdcdf3;
+}
+
+.container-login{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.container-register{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
 }
 
 .error{
@@ -16,4 +27,66 @@ body {
     width: 300px;
     margin: auto;
     font-size: 0.6em;
+}
+
+.loginImg{
+   width:300px;
+}
+
+.registerImg{
+    width:300px;
+    height: 310px;
+    margin-top: 100px;
+ }
+
+.inputs{
+    margin-top: 100px;
+}
+
+.inputs input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background: none;
+    width: 400px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background: none;
+    width: 400px ;
+}
+
+.form-container h4, p{
+    font-weight: 400;
+    margin: 0px;
+}
+
+
+.sub-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+    width: 400px ;
+    background-color: #a7a7d9;
+    color: #d7d7f3;
+    font-size: 1em;
+    margin-bottom: 70px;
+    cursor: pointer;
+
+}
+
+form p{
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+
+form h4{
+    text-align: justify;
+    margin: 20px 0px;
 }

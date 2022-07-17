@@ -36,7 +36,7 @@ Contener algún carácter especial: . | , | * | + | -
 
 * El username no puede contener espacios ni puntos.
 
-Finalmente realizamos un deploy de la app.
+Finalmente realizamos un deploy de la app: https://boccosantiago.github.io/login-signup/
 
 
 

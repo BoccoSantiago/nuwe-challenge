@@ -22,7 +22,7 @@ export default function RegisterPage() {
   const [errors, setErrors] = useState({});
 
   function handleClick(event) {
-    
+    setErrors(validation(values));
     if (!emailRegex.test(values.email)) {
       alert("Email is invalid");
     }
@@ -35,7 +35,6 @@ export default function RegisterPage() {
   }
 
   function handleChange(event) {
-    setErrors(validation(values));
     const { name, value } = event.target;
     setValues({
       ...values,

@@ -107,6 +107,7 @@ form h4{
     height: 100%;
     background-color: #AFB3FF;
     z-index: -1;
+    border-radius: 0 100px;
 }
 
 .rectangle2{
